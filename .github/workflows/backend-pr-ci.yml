@@ -1,4 +1,4 @@
-name: [ BE ] PR CI
+name:  BE PR CI
 
 on:
   push:
