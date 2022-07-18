@@ -22,7 +22,6 @@ public class AuthConfiguration implements WebMvcConfigurer {
         registry.addInterceptor(new TokenInterceptor(jwtTokenProvider))
                 .addPathPatterns("/api/members/info");
         // 패턴 수정 필요
-
     }
 
     @Override
