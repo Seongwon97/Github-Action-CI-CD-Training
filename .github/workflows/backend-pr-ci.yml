@@ -42,7 +42,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build
-        run: ./gradlew build --exclude-task test
+        run: ./gradlew build --warning-mode all --exclude-task test
 
       - name: Test
         run: ./gradlew test
