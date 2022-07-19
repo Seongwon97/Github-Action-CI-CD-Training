@@ -46,6 +46,17 @@ public class RestHandler {
                 .then().log().all();
     }
 
+    public static ValidatableResponse postRequestWithToken(String accessToken, Object body, String path) {
+        return RestAssured.given().log().all()
+                .auth().oauth2(accessToken)
+                .body(body)
+                .accept(MediaType.APPLICATION_JSON_VALUE)
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .when()
+                .post(path)
+                .then().log().all();
+    }
+
     public static ValidatableResponse putRequest(Object body, String path) {
         return RestAssured.given().log().all()
                 .accept(MediaType.APPLICATION_JSON_VALUE)
@@ -56,15 +67,36 @@ public class RestHandler {
                 .then().log().all();
     }
 
-    public static ValidatableResponse postRequestWithToken(String accessToken, Object body, String path) {
+    public static ValidatableResponse putRequestWithToken(String accessToken, Object body, String path) {
         return RestAssured.given().log().all()
                 .auth().oauth2(accessToken)
                 .body(body)
                 .accept(MediaType.APPLICATION_JSON_VALUE)
                 .contentType(MediaType.APPLICATION_JSON_VALUE)
                 .when()
-                .post(path)
+                .put(path)
                 .then().log().all();
+    }
+
+    public static ExtractableResponse<Response> postRequestWithToken2(String accessToken, String path) {
+        return RestAssured.given().log().all()
+                .auth().oauth2(accessToken)
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .when()
+                .post(path)
+                .then().log().all()
+                .extract();
+    }
+
+    public static ExtractableResponse<Response> postRequestWithTokenAndBody(String accessToken, Object body, String path) {
+        return RestAssured.given().log().all()
+                .auth().oauth2(accessToken)
+                .body(body)
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .when()
+                .post(path)
+                .then().log().all()
+                .extract();
     }
 
     public static ValidatableResponse patchRequestWithToken(String accessToken, Object body, String path) {
@@ -94,5 +126,16 @@ public class RestHandler {
                 .when()
                 .delete(path)
                 .then().log().all();
+    }
+
+    public static ExtractableResponse<Response> deleteRequestWithToken2(String accessToken, String path) {
+        return RestAssured.given().log().all()
+                .auth().oauth2(accessToken)
+                .accept(MediaType.APPLICATION_JSON_VALUE)
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .when()
+                .delete(path)
+                .then().log().all()
+                .extract();
     }
 }
