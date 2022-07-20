@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e04fd9d-d994-4fdd-85bc-344901003bec" name="Changes" comment="줄바꿈 제거">
+    <list default="true" id="1e04fd9d-d994-4fdd-85bc-344901003bec" name="Changes" comment="update backend-pr-ci.yml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/backend-pr-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/backend-pr-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/auth/config/AuthConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/auth/config/AuthConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/auth/config/TokenInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/globalException/ControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/globalException/ControllerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/controller/GroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/domain/group/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/domain/group/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/service/GroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/service/dto/response/GroupResponseAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/group/service/dto/response/GroupResponseAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/member/dto/response/MemberResponseAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/woowacourse/momo/member/dto/response/MemberResponseAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/auth/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/auth/controller/AuthControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/common/acceptance/RestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/common/acceptance/RestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/group/acceptance/GroupAcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/group/acceptance/GroupAcceptanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/group/domain/group/GroupRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/woowacourse/momo/group/domain/group/GroupRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +35,35 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="momo" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momo" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momo" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momo" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momo" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="momo" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -102,7 +118,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658211596756</updated>
-      <workItem from="1658211598030" duration="3760000" />
+      <workItem from="1658211598030" duration="8039000" />
+      <workItem from="1658295925114" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="chore: 깃헙 액션">
       <created>1658217602968</created>
@@ -118,7 +135,42 @@
       <option name="project" value="LOCAL" />
       <updated>1658217953700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="줄바꿈 제거">
+      <created>1658229349001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658229349001</updated>
+    </task>
+    <task id="LOCAL-00004" summary="줄바꿈 제거">
+      <created>1658229467223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658229467223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update backend-pr-ci.yml">
+      <created>1658244436920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658244436920</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update backend-pr-ci.yml">
+      <created>1658244898902</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658244898902</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update backend-pr-ci.yml">
+      <created>1658246457675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658246457676</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +190,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: 깃헙 액션" />
     <MESSAGE value="줄바꿈 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="줄바꿈 제거" />
+    <MESSAGE value="update backend-pr-ci.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update backend-pr-ci.yml" />
   </component>
 </project>
