@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e04fd9d-d994-4fdd-85bc-344901003bec" name="Changes" comment="update backend-pr-ci.yml" />
+    <list default="true" id="1e04fd9d-d994-4fdd-85bc-344901003bec" name="Changes" comment="update backend-pr-ci.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +100,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Tests in 'momo.test'">
+    <configuration name="Tests in 'momo.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MomoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="momo.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.woowacourse.momo.MomoApplication" />
@@ -106,6 +129,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'momo.test'" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658211596756</updated>
       <workItem from="1658211598030" duration="8039000" />
-      <workItem from="1658295925114" duration="767000" />
+      <workItem from="1658295925114" duration="1457000" />
     </task>
     <task id="LOCAL-00001" summary="chore: 깃헙 액션">
       <created>1658217602968</created>
@@ -174,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658296031469</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update backend-pr-ci.yml">
+      <created>1658303235496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658303235496</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update backend-pr-ci.yml">
+      <created>1658303325915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658303325915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
